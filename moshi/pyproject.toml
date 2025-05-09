@@ -28,7 +28,7 @@ moshi-client = "moshi.client:main"
 version = {attr = "moshi.__version__"}
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools<68"] 
 build-backend = "setuptools.build_meta"
 
 [project.optional-dependencies]
